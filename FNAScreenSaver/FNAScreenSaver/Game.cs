@@ -7,6 +7,9 @@ using FNAScreenSaver.Classes;
 
 namespace FNAScreenSaver
 {
+    /// <summary>
+    /// Основной класс игры
+    /// </summary>
     public class Game : Microsoft.Xna.Framework.Game
     {
         private GraphicsDeviceManager graphics;
@@ -26,6 +29,9 @@ namespace FNAScreenSaver
         const int MinSpeed = 2;
         const int MaxSpeed = 8;
 
+        /// <summary>
+        /// Конструктор для класса <see cref="Game"/>
+        /// </summary>
         public Game()
         {
             graphics = new GraphicsDeviceManager(this);
